@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: mstrdav.github.io
-Token: d4917f0fde8f45224fd0b8735930cb5cd055070ec4c030e94e0c5e0bcf67becd
