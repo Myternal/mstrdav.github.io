@@ -100,19 +100,7 @@ aside .resume p a img {
     vertical-align: text-bottom;
 }
 
-@media (max-width: 1000px) {
-    aside {
-        width: 1px;
-        display: none;
-    }
-
-    section {
-        width: 100%;
-        transition: width 0.4s ease;
-    }
-}
-
-@media (max-width: 600px) {
+@media (max-width: 950px) {
     aside {
         width: 100%;
         display: block;
