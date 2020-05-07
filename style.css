@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+header {
+    width: 100%;
+    height: 20vw;
+    padding: 5vw 0;
+    background: #333355;
+}
+
+h1 {
+    color: white;
+    font-size: 8vw;
+    text-align: center;
+    font-family: 'Poppins';
+}
+
+h2, h3, h4 {
+    font-family: 'Poppins';
+    margin-top: 30px;
+}
+
+section {
+    margin: 50px;
+    max-width: 1400px;
+}
+
+p {
+    margin: 15px 0;
+}
+
+.a-container {
+    margin-top: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background: #333355;
+    padding: 15px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+a img {
+    height: 25px;
+    filter: invert(1);
+    width: 25px;
+    vertical-align: text-bottom;
+    margin-right: 4px;
+}
