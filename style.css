@@ -100,7 +100,7 @@ aside .resume p a img {
     vertical-align: text-bottom;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 950px), (pointer:none), (pointer:coarse) {
     aside {
         width: 100%;
         display: block;
@@ -110,5 +110,30 @@ aside .resume p a img {
     section {
         width: 100%;
         transition: width 0.4s ease;
+    }
+}
+
+@media (pointer:none), (pointer:coarse) {
+    a img {
+        display: none;
+    }
+
+    section .a-container {
+        margin-top: 50px;
+    }
+
+    section a {
+        padding: 20px;
+        border-radius: 12px;
+        margin-right: 12px;
+    }
+
+    .resume {
+        font-size: 200%;
+        border-radius: 12px;
+    }
+
+    .resume a {
+        display: none;
     }
 }
